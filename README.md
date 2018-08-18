@@ -8,9 +8,8 @@
 ## Download
 - `git clone https://github.com/caiyufeng/conky.git  ~/.conky`  
 
-## Revise
-修改secrets.yml里面的分区路径，用于file模块显示内存占比  
-修改file.conf里面的note文件路径，用于file模块显示文件内容  
+## Modify
+put your path in it
 - `gedit ~/.conky/secrets.yml`
 - `gedit ~/.conky/configs/file.conf`  
 
