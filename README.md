@@ -9,19 +9,19 @@
 - `git clone https://github.com/caiyufeng/conky.git  ~/.conky`  
 
 ## Revise
-修改secrets.yml里面的分区路径，用于file模块显示内存占比
-修改file.conf里面的note文件路径，用于file模块显示文件内容
+修改secrets.yml里面的分区路径，用于file模块显示内存占比  
+修改file.conf里面的note文件路径，用于file模块显示文件内容  
 - `gedit ~/.conky/secrets.yml`
 - `gedit ~/.conky/configs/file.conf`  
 
 ## Install
 ruby & conky
 - `sudo apt-get install ruby`
-- `sudo apt-get install conky`
+- `sudo apt-get install conky`  
 sensors:
 - `sudo apt-get install lm-sensors`
 - `sudo sensors-detect `
-- `service module-init-tools start`
+- `service module-init-tools start`  
 other dependencies:
 - curl
 - ss
@@ -31,7 +31,6 @@ other dependencies:
 ## Autostart：
 - `cd ~/.config/autostart`
 - `gedit conky.desktop`  
-fill it in with the following contents:  
 ```
 [Desktop Entry]
 Name=conky
