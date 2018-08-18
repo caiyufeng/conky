@@ -1,6 +1,6 @@
 # conky
-<img src='a.jpg' width='900px'>
-<img src='b.jpg' width='900px'>
+<img src='a.png' width='900px'>
+<img src='b.png' width='900px'>
 # 第一次制作conky，工程框架取自：
 - https://github.com/alexbel/conky.git
 # 修改成了自己喜欢的风格和模块。
