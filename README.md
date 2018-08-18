@@ -29,9 +29,8 @@ other dependencies:
 - conky-imlib2  
 
 ## Autostart：
-```
-- cd ~/.config/autostart
-- gedit conky.desktop
+- `cd ~/.config/autostart`
+- `gedit conky.desktop`  
 fill it in with the following contents:  
 ```
 [Desktop Entry]
@@ -50,4 +49,5 @@ cd ~/.conky/
 ```  
 ## Error mounting sda8：  
 - sudo ntfsfix /dev/sda8  
+
 ## More questions please move to the original author homepage
